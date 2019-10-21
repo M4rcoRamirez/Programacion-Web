@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	color: #414141; /*dark grey*/
+    background-image: url(https://st2.depositphotos.com/3885521/7249/v/950/depositphotos_72495865-stock-illustration-sport-equipment-grunge-background-seamles.jpg);
+	font-size:17px;
+  }
+
+.contenedor{
+	
+    font-weight: bold;
+	padding: 20px;
+	text-align: center;
+	border: 2px solid #5d6063;
+	border-radius: 3px;
+	width: 900px;
+	box-sizing: border-box;	/*toma el pagging y borde; content-box no*/
+	margin: 0 auto;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 60px;
+    font-family: "Helvetica", "Arial", sans-serif; 
+}
+
+h3{
+    font-weight: 500;
+    font-size: 30px;
+    color: darkblue;
+	font-family: "Helvetica", "Arial", sans-serif; 
+}
+
+ol{
+	list-style-type: none;
+}
