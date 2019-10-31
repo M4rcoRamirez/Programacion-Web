@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grandote{
+    width: 900px;
+    height: 600px;
+    /*border: 1px solid black;*/
+    margin: 80px auto;
+}
+
+.moradito{
+    display: flex;
+    width: 900px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: INDIGO;
+    align-items: center;/*alineamos al centro los dos cuadros rosas*/
+    justify-content: space-between;/*unoaqui                otroacá*/
+}
+
+.rosadito{
+    height: 50px;
+    width: 250px;
+    background-color: #cd65e9;
+    border: 1px solid black;
+}
+.juntos{
+    display: flex;
+    height: 350px;
+    width: 900px;
+   /* justify-content: space-between;*/
+}
+
+.azulito{
+    display: flex;
+    height: 350px;
+    width: 700px;
+    border: 1px solid black;
+    background-color: #4fbaef;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.cafecito{
+    display: flex;
+    height: 350px;
+    width: 200px;
+    background-color: #8c6118;
+    border: 1px solid black;
+    align-items: center;
+    flex-direction: column;
+}
+
+.verdefeo{
+    display: flex;
+    height: 100px;
+    width: 900px;
+    background-color: #cce2be;
+    border: 1px solid black;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.amarillito{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
