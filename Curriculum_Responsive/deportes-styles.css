@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	color: #414141; /*dark grey*/
+    background-image: url(https://st2.depositphotos.com/3885521/7249/v/950/depositphotos_72495865-stock-illustration-sport-equipment-grunge-background-seamles.jpg);
+	font-size:17px;
+  }
+
+.contenedor{
+	
+    font-weight: bold;
+	padding: 20px;
+	text-align: center;
+	border: 2px solid #5d6063;
+	border-radius: 3px;
+	width: 90%;
+	max-width: 900px;
+	box-sizing: border-box;	/*toma el pagging y borde; content-box no*/
+	margin: 0 auto;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 60px;
+    font-family: "Helvetica", "Arial", sans-serif; 
+}
+
+h3{
+    font-weight: 500;
+    font-size: 30px;
+    color: darkblue;
+	font-family: "Helvetica", "Arial", sans-serif; 
+}
+
+ol{
+	list-style-type: none;
+}
+
+/*mobile styles*/
+@media screen and (max-width: 400px){
+	.contenedor {
+		background: #4FD926;
+	}
+	h1{
+		font-weight: 500;
+    	font-size: 60px;
+		font-family: "Helvetica", "Arial", sans-serif;
+		color: #123BA3;
+	}
+	h3{
+		font-weight: 500;
+    font-size: 30px;
+    color: #38CEEA;
+	font-family: "Helvetica", "Arial", sans-serif; 
+	}
+
+}
+
+/*Tablet styles*/
+@media screen and (min-width: 401px) and (max-width: 960px){
+	.contenedor {
+		background: #D9D626;
+	}
+	h1{
+		font-weight: 500;
+    	font-size: 60px;
+		font-family: "Helvetica", "Arial", sans-serif;
+		color: #4A2793;
+	}
+	h3{
+		font-weight: 500;
+    font-size: 30px;
+    color: red;
+	font-family: "Helvetica", "Arial", sans-serif; 
+	}
+}
+
+/*desktop styles*/
+@media screen and (min-width: 961px){
+	.contenedor{
+		width: 100%;
+	}
+
+}
