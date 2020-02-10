@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Modificar Preguntas</title>
+    <link rel='stylesheet' href='stylesSuperUsuario.css'/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  </head>
+  <body>
+  <div class="cuerpo">
+  	<div class="cabezera">
+  		<p>Modificar Preguntas</p>
+  	</div>
+  	<div class="subcabezera">
+        <div class="regresa">
+          <a href="SuperUsuario.html"><img src="images/back.png" width="30px" height="30px"></a>
+        </div>
+        <p>Usuario</p>
+    </div>
+  	<form class="acciones2">
+  		<div class="auxiliar_acciones">
+  			<p>¿De qué tabla vas a modificar? 
+    		<select class="form-control" name="menu_eleccion_tabla" required>
+    			<option selected="true" disabled="disabled">seleccione una opción</option>
+    			<option value="1">Tabla Xbox</option>
+    			<option value="2">Tabla Play Station</option>
+    			<option value="3">Tabla Nintendo</option>
+    		</select><p>* Campo requerido</p>
+    		</p>
+  		</div>
+  		<div class="auxiliar_acciones">
+  			<p>¿Qué campo quieres modificar?
+  			<select class="form-control" name="menu_eleccion_modificar" required>
+  				<option selected="true" disabled="disabled">seleccione una opción</option>
+  				<option value="1">Pregunta</option>
+  				<option value="2">Respuesta 1</option>
+  				<option value="3">Respuesta 2</option>
+  				<option value="4">Respuesta 3</option>
+  				<option value="5">Respuesta Correcta</option>
+  				<option value="6">Nivel</option>
+  			</select><p>* Campo requerido</p>	
+  			</p>
+  		</div>
+  		<div class="auxiliar_acciones">
+    		<p>Id del campo: <input class="form-control" type="text" name="id_mod" required pattern="[0-9]+" placeholder="000000"></p><p>* Campo requerido(solo números)</p>
+    	</div>
+    	<div class="auxiliar_acciones">
+    		<p>Introduce los nuevos datos: <input class="form-control" type="text" name="datos_modificar" required placeholder="nuevos datos"></p><p>* Campo requerido</p>
+    	</div>
+
+  		<div class="auxiliar_acciones_aceptar_cancelar">
+    		<input class="btn btn-primary" type="submit" value="Aceptar">
+    		<a class="btn btn-primary" href="Modificar.html">Cancelar</a>
+    	</div>
+  	</form>
+  </div>
+  </body>
+</html>

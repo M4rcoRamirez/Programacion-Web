@@ -1,0 +1,125 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a:link{
+	color:  #fff;
+	text-decoration: none;
+}
+a:visited{
+	color: #fff;
+}
+a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+a:active{
+	color: white;
+}
+
+.cuerpo{
+	height: 100%;
+	width: 100%;
+	background-color: #FCFFFF;
+	/*margin: : 1px solid black;*/
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.cabezera{
+	display: flex;;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	width: 98%;
+	background-color: #EB362A;
+	border-radius: 3px;
+	margin: 3px auto;
+	color: #fff;
+	font-size: xx-large;
+	/*border: 1px solid black;*/
+}
+
+.subcabezera{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 45px;
+	width: 98%;
+	background-color: #26211E;
+	border-radius: 3px;
+	margin: 3px auto;
+}
+
+.regresa{
+	display: flex;
+	width: 10%;
+	height: 95%;
+	border-radius: 2px;
+	justify-content: center;
+	align-items: center;
+	/*border: 1px solid black;*/
+}
+
+.acciones2{
+	width: 85%;
+	height: 100%;
+	/*border: 1px solid black;*/
+	background-color: #9F9F9F;
+	color: #fff;
+	border-radius: 3px;
+	margin: 3px auto;
+	flex-direction: column;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.auxiliar_acciones{
+	display: flex;
+	width: 98%;
+	border-radius: 3px;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 5px auto;
+}
+
+.auxiliar_acciones_aceptar_cancelar{
+	display: flex;
+	width: 98%;
+	border-radius: 3px;
+	justify-content: space-around;
+	align-items: center;
+	margin: 5px auto;
+}
+
+.acciones{
+	width: 98%;
+	height: 500px;
+	/*border: 1px solid black;*/
+	background-color: #9F9F9F;
+	color: #fff;
+	border-radius: 3px;
+	margin: 3px auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.IngresaNuevaPregunta{
+	width: 35%;
+	height: 60px;
+	/*sborder: 1px solid black;*/
+	background-color: #EB362A;
+	border-radius: 3px;
+	margin: 3px auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #fff;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ingresar</title>
+    <link rel='stylesheet' href='stylesSuperUsuario.css'/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  </head>
+  <body>
+   <div class="cuerpo">
+    <div class="cabezera">
+    	<p>Ingresar Nuevas Noticias</p>
+    </div>
+    <div class="subcabezera">
+        <div class="regresa">
+          <a href="SuperUsuario.html"><img src="images/back.png" width="30px" height="30px"></a>
+        </div>
+    </div>
+    <form action="prueba_alta.php" method="post" enctype="multipart/form-data" class="acciones2">
+    	<div class="auxiliar_acciones">
+    		<p>Titulo de la Noticia: <input class="form-control" type="text" name="titulo" required  placeholder="...">* Campo requerido</p>
+    	</div>
+
+    	<div class="auxiliar_acciones">
+    		<p>Autor: <input class="form-control" type="text" name="autor" required  placeholder="StarGreen333.">* Campo requerido</p>
+    	</div>
+
+        <div class="auxiliar_acciones">
+            <p>Tipo de noticia: <select class="form-control" name="menu_eleccion_tipo" required>
+                <option selected="true" disabled="disabled">seleccione una opción</option>
+                <option value="1">Xbox</option>
+                <option value="2">Play Station</option>
+                <option value="3">Nintendo</option>
+            </select>
+        </div>
+
+    	<div class="auxiliar_acciones">
+    		<p>Breve descripcion de la noticia: <input class="form-control" type="text" name="descripcion" required placeholder="descripcion.">* Campo requerido</p>
+    	</div>
+
+        <div class="auxiliar_acciones">
+            <p>Selecciona una imagen para tu noticia: <input class="form-control" type="file" name="imagen"></p>
+        </div>
+
+    	<div class="auxiliar_acciones">
+    		<p>Noticia Completa: <textarea class="form-control" name="noticia" rows="12" cols="100" placeholder="Aqui escribe la noticia completa."></textarea>* Campo requerido</p>
+    	</div>
+    	<div class="auxiliar_acciones_aceptar_cancelar">
+    		<input class="btn btn-primary" type="submit" value="Aceptar">
+            <a class="btn btn-primary" href="Ingresar.html">Cancelar</a>
+    	</div>
+    </form>
+   </div> 
+  </body>
+</html>
